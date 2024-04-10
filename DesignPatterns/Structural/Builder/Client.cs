@@ -27,6 +27,16 @@ namespace Altkom._10_12._04._2024.DesignPatterns.Structural.Builder
 
             vehicle = new Vehicle() { Doors = 4, Seats = 5, Wheels = 4, TrunkCapacity = 500, EnginePower = 100 };
             Console.WriteLine(vehicle);
+
+            vehicle = new VehicleBuilder()
+                        .SetWeels(4)
+                        .SetSeats(5)
+                        .SetDoors(4)
+                        .SetEngine(100)
+                        .SetTrunk(500)
+                        .Build();
+
+            Console.WriteLine(vehicle);
         }
     }
 }
