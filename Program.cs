@@ -1,6 +1,6 @@
 ﻿
 
-using Altkom._10_12._04._2024.DesignPatterns.Creational.Prototype;
+using Altkom._10_12._04._2024.DesignPatterns.Creational.Singleton;
 using Altkom._10_12._04._2024.SOLID.L;
 
 Client.Execute();
