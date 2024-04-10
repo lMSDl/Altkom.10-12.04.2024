@@ -1,17 +1,23 @@
 ﻿
 
+using Altkom._10_12._04._2024.DesignPatterns.Structural.Builder;
 using Altkom._10_12._04._2024.SOLID.L;
 
-int a = 4;
-int b = 9;
+Client.Execute();
 
-
-var rectangle = CreateRectangle(a, b);
-
-
-Console.WriteLine($"{a} * {b} = {rectangle.Area}");
-
-Rectangle CreateRectangle(int a, int b)
+static void SOLID()
 {
-    return new Square() { A = a, B = b };
+    int a = 4;
+    int b = 9;
+
+
+    var rectangle = CreateRectangle(a, b);
+
+
+    Console.WriteLine($"{a} * {b} = {rectangle.Area}");
+
+    Rectangle CreateRectangle(int a, int b)
+    {
+        return new Square() { A = a, B = b };
+    }
 }
