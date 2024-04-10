@@ -1,6 +1,6 @@
 ﻿
 
-using Altkom._10_12._04._2024.DesignPatterns.Creational.Builder;
+using Altkom._10_12._04._2024.DesignPatterns.Creational.FactoryMethod;
 using Altkom._10_12._04._2024.SOLID.L;
 
 Client.Execute();
