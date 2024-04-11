@@ -1,6 +1,6 @@
 ﻿
 
-using Altkom._10_12._04._2024.DesignPatterns.Creational.ObjectPool;
+using Altkom._10_12._04._2024.DesignPatterns.Structural.Adapter.I;
 using Altkom._10_12._04._2024.SOLID.L;
 
 Client.Execute();
@@ -18,6 +18,6 @@ static void SOLID()
 
     Rectangle CreateRectangle(int a, int b)
     {
-        return new Square() { A = a, B = b };
+        return new Altkom._10_12._04._2024.SOLID.L.Square() { A = a, B = b };
     }
 }
