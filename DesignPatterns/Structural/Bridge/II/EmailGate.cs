@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Altkom._10_12._04._2024.DesignPatterns.Structural.Bridge.II
+{
+    internal class EmailGate : IMessageSenderImplementation
+    {
+        public void SendMessage(string message)
+        {
+            Console.WriteLine($"Wiadomość została wysłana przez Email: {message}");
+        }
+    }
+}
