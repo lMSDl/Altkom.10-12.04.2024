@@ -1,6 +1,6 @@
 ﻿
 
-using Altkom._10_12._04._2024.DesignPatterns.Structural.Bridge.II;
+using Altkom._10_12._04._2024.DesignPatterns.Structural.Composite;
 using Altkom._10_12._04._2024.SOLID.L;
 
 Client.Execute();
